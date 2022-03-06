@@ -4,8 +4,6 @@ import random
 COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
 STARTING_MOVE_DISTANCE = 5
 MOVE_INCREMENT = 10
-START_BOUNDARY_Y = (-250, -200, -150, -100, -50, 0, 50, 100, 150, 200, 250)
-BOUNDARY = [-250, 250]
 
 
 class CarManager(Turtle):
